@@ -4,7 +4,10 @@
 # ignore the everything of root dir but the usr dir
 /*
 !.gitignore
+!README.md
+
 # only retain the uploads and the themes dir
+!usr/
 usr/*
 !usr/uploads
 !usr/themes
@@ -16,3 +19,6 @@ usr/themes/*
 # ignore the all the files of handsome theme but the assets files
 usr/themes/handsome/*
 !usr/themes/handsome/assets
+
+# ignore the php files
+*.php
